@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:1200px;
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f3f3f3;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    border:1px solid #ddd;
+    padding:15px;
+    margin-top:15px;
+}
+
+.logo img{
+    width:150px;
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.menu a{
+    text-decoration:none;
+    color:black;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:0 10px;
+}
+
+.menu a:hover{
+    color:red;
+    border-bottom:3px solid red;
+    padding-bottom:5px;
+}
+
+.login{
+    font-weight:bold;
+}
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+}
+
+.left{
+    width:20%;
+    background:white;
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+.left .news{
+    margin-bottom:20px;
+    border-bottom:1px solid #ddd;
+    padding-bottom:15px;
+}
+
+.left .news:last-child{
+    border:none;
+}
+
+.left .news img{
+    width:100%;
+}
+
+.left .news h3{
+    margin-top:10px;
+    font-size:18px;
+    line-height:25px;
+}
+
+.center{
+    width:45%;
+    background:white;
+    border:1px solid #ddd;
+    padding:15px;
+}
+
+.center>img{
+    width:100%;
+}
+
+.center h1{
+    margin:15px 0;
+    font-size:30px;
+    line-height:40px;
+}
+
+.center p{
+    font-size:18px;
+    line-height:28px;
+    text-align:justify;
+}
+
+.center hr{
+    margin:20px 0;
+}
+
+.center .news{
+    display:flex;
+    margin-bottom:15px;
+}
+
+.center .news img{
+    width:130px;
+    height:90px;
+    margin-right:10px;
+}
+
+.center .news h3{
+    font-size:18px;
+    line-height:25px;
+}
+
+.right{
+    width:27%;
+}
+
+.box{
+    background:white;
+    border:1px solid #ddd;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+.box .news{
+    margin-bottom:15px;
+}
+
+.box .news img{
+    width:100%;
+}
+
+.box .news h4{
+    margin-top:10px;
+    font-size:18px;
+    line-height:26px;
+}
+
+.box p{
+    font-size:18px;
+    line-height:30px;
+}
+
+.left .news h3:hover,
+.center .news h3:hover,
+.box .news h4:hover{
+    color:red;
+    cursor:pointer;
+}
+
+img{
+    border-radius:5px;
+}
